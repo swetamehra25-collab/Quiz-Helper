@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Quiz Helper</title>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+
+  <div class="card">
+    <h1>🤖 Quiz Helper</h1>
+
+    <input type="text" id="topic" placeholder="Enter topic...">
+    <button id="btn">Get Quiz</button>
+
+    <div id="loader" class="hidden">⏳ Loading...</div>
+
+    <div id="result" class="hidden">
+      <p id="question"></p>
+      <button id="showAns" class="hidden">Show Answer</button>
+      <p id="answer" class="hidden"></p>
+    </div>
+  </div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
