@@ -1,0 +1,1 @@
+This is a Quiz Helper project that helps users quickly solve quiz-based problems. It takes user input and provides accurate answers using simple logic and AI support. It is designed to make learning easy and interactive.
